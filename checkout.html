@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="header">
+            <img class="logo" src="img/0B4CF001-BB3B-4D24-8EE5-FBE91A1E5071.PNG">
+
+            <div class="header-links">
+                <a href="index.html">home</a>
+                <a href="shop.html">shop</a>
+                <a href="con.html">contact us</a>
+           
+            </div>
+        </div>
+    </header>
+
+    <!-- CHECKOUT WRAPPER -->
+    <div class="checkout-wrapper">
+
+        <!-- ORDER SUMMARY TOP (Mobile) -->
+        <div class="order-summary-bar">
+            <span>Order summary</span>
+            <span class="total-price">$1100</span>
+        </div>
+
+        <!-- CONTACT SECTION -->
+        <section class="section-box">
+            <h2>Contact</h2>
+            <input type="text" class="input" placeholder="Email or mobile phone number">
+
+            <label class="checkbox">
+                <input type="checkbox">
+                <span>Email me with news and offers</span>
+            </label>
+        </section>
+
+        <!-- DELIVERY SECTION -->
+        <section class="section-box">
+            <h2>Delivery</h2>
+
+            <label class="label-title">Country/Region</label>
+            <select class="input">
+                <option>Egypt</option>
+            </select>
+
+            <div class="two-col">
+                <input class="input" type="text" placeholder="First name">
+                <input class="input" type="text" placeholder="Last name">
+            </div>
+
+            <input class="input" type="text" placeholder="Address">
+            <input class="input" type="text" placeholder="Apartment, suite, etc. (optional)">
+            <input class="input" type="text" placeholder="City">
+
+            <label class="label-title">Governorate</label>
+            <select class="input">
+                <option>Cairo</option>
+                <option>Mansoura</option>
+            </select>
+
+            <input class="input" type="text" placeholder="Postal code (optional)">
+        </section>
+
+        <!-- SHIPPING METHOD -->
+        <section class="section-box">
+            <h2>Shipping method</h2>
+            <p>$100</p>
+
+            <div class="option-box selected">
+                <div>
+                    <strong>Standard</strong>
+                    <div class="old-price"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAYMENT SECTION -->
+        <section class="section-box">
+            <h2>Payment</h2>
+            <p class="sub-text">All transactions are secure and encrypted.</p>
+
+            <div class="option-box selected">
+                <span>Cash on Delivery</span>
+            </div>
+
+            <h3>Billing address</h3>
+
+            <label class="radio">
+                <input type="radio" name="billing" checked>
+                <span>Same as shipping address</span>
+            </label>
+
+            <label class="radio">
+                <input type="radio" name="billing">
+                <span>Use a different billing address</span>
+            </label>
+        </section>
+
+        <!-- TOTAL SECTION -->
+        <section class="section-box">
+            <h2>Total</h2>
+            <div class="summary-row total">
+                <span class="price">$1100</span>
+            </div>
+        </section>
+
+        <!-- COMPLETE ORDER BUTTON -->
+        <a href="tk.html" class="complete-btn">Complete order</a>
+
+    </div>
+
+ <footer>
+        © 2025 LOVREN
+    </footer>
+</body>
+</html>

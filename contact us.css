@@ -1,0 +1,117 @@
+/* HEADER */
+.header { 
+    background-color:#8b0000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.header-links a {
+    color: #ffffff;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.header-links a:hover {
+    color: black;
+}
+
+.header-links button {
+    background-color: black;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+}
+
+.header-links button:hover {
+    background-color: rgb(114, 6, 6);
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #000;
+}
+
+.top-logo {
+    padding: 20px 0;
+}
+
+.logo {
+    width: 120px;
+}
+
+.title {
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.divider {
+    width: 70px;
+    height: 1.5px;
+    background: #000;
+    margin: 25px auto;
+}
+
+.email {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    margin-top: 50px;
+}
+
+.footer-links p {
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+.insta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    font-size: 18px;
+}
+
+.copy, .dev {
+    font-size: 16px;
+    margin-top: 15px;
+}
+/* FOOTER */
+.my-footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid red;
+    width: 80%;
+    margin: 50px auto 20px;
+    border-radius: 10px;
+}
+
+.my-footer a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.my-footer a:hover {
+    text-decoration: underline;
+}
+
+.my-footer p {
+    margin-top: 10px;
+}
